@@ -1,0 +1,77 @@
+
+.main {
+    width: 380px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 30px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 2.2em;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+/* Style for the image */
+.stadium-img {
+    width: 380px;
+    height: auto;
+    border-width: 3px;
+}
+
+/* Style for the paragraph */
+p {
+    font-size: 15px;
+    color: #121212;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Style for the input field */
+.email-input {
+    width: 65%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px 0;
+    border: 2px solid #121212;
+    font-size: 14;
+    border-width: 3px;
+}
+
+.email-input::placeholder {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Style for the button */
+.join-btn {
+    display: block;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #121212;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 50px;
+     /* For the link styled as a button */
+}
+
+.join-btn {
+    background-color: #121212;
+}
+
+p.link:hover {
+ text-decoration: underline;
+ text-decoration-color: beige;
+ }
